@@ -1,0 +1,189 @@
+away_team_api_id,away_team_goal,home_team_goal,team_long_name,team_short_name,country_name,league_name,country_id,league_id,match_api_id,buildUpPlaySpeedClass,buildUpPlayDribblingClass,buildUpPlayPassingClass,buildUpPlayPositioningClass,chanceCreationCrossingClass,chanceCreationShootingClass,chanceCreationPositioningClass,chanceCreationPassingClass,defencePressureClass,defenceAggressionClass,defenceTeamWidthClass,buildUpPlaySpeed,buildUpPlayDribbling,buildUpPlayPassing,chanceCreationPassing,chanceCreationCrossing,chanceCreationShooting,defencePressure,defenceAggression,defenceTeamWidth
+8573,5,3,KV Oostende,OOS,Belgium,Belgium Jupiler League,1,1,1717865,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,52,49.0,54,45,42,53,42,47,44
+8571,0,5,KV Kortrijk,KOR,Belgium,Belgium Jupiler League,1,1,1717873,Balanced,Normal,Mixed,Organised,Lots,Little,Organised,Normal,Medium,Press,Normal,42,40.0,47,37,67,30,46,45,52
+9984,2,3,KSV Cercle Brugge,CEB,Belgium,Belgium Jupiler League,1,1,1717874,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,53,49.0,43,52,58,42,59,47,62
+9991,3,1,KAA Gent,GEN,Belgium,Belgium Jupiler League,1,1,1717875,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,50,55.0,37,42,66,34,49,54,52
+10000,1,2,SV Zulte-Waregem,ZUL,Belgium,Belgium Jupiler League,1,1,1717876,Balanced,Normal,Mixed,Organised,Normal,Little,Organised,Normal,Medium,Press,Normal,54,42.0,51,47,52,32,44,58,37
+9987,2,1,KRC Genk,GEN,Belgium,Belgium Jupiler League,1,1,1717877,Balanced,Normal,Mixed,Organised,Lots,Normal,Organised,Safe,Medium,Press,Wide,58,52.0,38,30,69,56,36,57,70
+8203,2,3,KV Mechelen,MEC,Belgium,Belgium Jupiler League,1,1,1717878,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,52,42.0,40,47,53,50,42,51,52
+9985,2,0,Standard de Liège,STL,Belgium,Belgium Jupiler League,1,1,1717880,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,54,45.0,62,55,58,60,45,54,52
+9989,2,2,Lierse SK,LIE,Belgium,Belgium Jupiler League,1,1,1717881,Fast,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,69,44.0,58,56,52,61,38,49,65
+9986,1,1,Sporting Charleroi,CHA,Belgium,Belgium Jupiler League,1,1,1717882,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,60,47.0,53,48,50,48,39,48,49
+9994,1,1,Sporting Lokeren,LOK,Belgium,Belgium Jupiler League,1,1,1717883,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,62,45.0,52,42,50,62,45,52,52
+8342,2,2,Club Brugge KV,CLB,Belgium,Belgium Jupiler League,1,1,1717884,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,42,52.0,45,42,57,47,51,50,57
+8635,2,0,RSC Anderlecht,AND,Belgium,Belgium Jupiler League,1,1,1717885,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,52,46.0,51,60,53,47,53,50,61
+274581,0,3,Royal Excel Mouscron,MOP,Belgium,Belgium Jupiler League,1,1,1717886,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,50,50.0,50,50,50,50,45,45,50
+8475,0,2,Waasland-Beveren,WAA,Belgium,Belgium Jupiler League,1,1,1717887,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Deep,Contain,Normal,38,45.0,49,45,42,53,27,32,35
+10001,2,1,KVC Westerlo,WES,Belgium,Belgium Jupiler League,1,1,1717888,Balanced,Normal,Mixed,Organised,Normal,Little,Organised,Normal,Medium,Press,Normal,52,46.0,50,57,55,32,48,45,53
+8191,2,2,Burnley,BUR,England,England Premier League,1729,1729,1724045,Balanced,Little,Long,Organised,Normal,Normal,Organised,Risky,Medium,Press,Normal,54,32.0,67,72,57,47,63,62,58
+8659,1,2,West Bromwich Albion,WBA,England,England Premier League,1729,1729,1724046,Balanced,Little,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,62,32.0,51,53,50,60,41,40,49
+8466,0,1,Southampton,SOU,England,England Premier League,1729,1729,1724050,Balanced,Little,Mixed,Organised,Normal,Little,Organised,Normal,Medium,Press,Normal,52,31.0,46,42,54,30,50,65,44
+10172,0,2,Queens Park Rangers,QPR,England,England Premier League,1729,1729,1724051,Slow,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,30,39.0,61,53,53,60,50,44,54
+8654,3,1,West Ham United,WHU,England,England Premier League,1729,1729,1724053,Fast,Normal,Mixed,Organised,Lots,Little,Organised,Risky,Deep,Press,Normal,77,37.0,57,68,73,29,30,37,41
+8586,1,4,Tottenham Hotspur,TOT,England,England Premier League,1729,1729,1724056,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,47,46.0,40,41,41,63,63,54,56
+8650,3,2,Liverpool,LIV,England,England Premier League,1729,1729,1724058,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,66,60.0,45,34,34,46,51,52,61
+8472,0,8,Sunderland,SUN,England,England Premier League,1729,1729,1724059,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,43,43.0,51,59,50,55,47,45,49
+10003,1,2,Swansea City,SWA,England,England Premier League,1729,1729,1724060,Balanced,Normal,Mixed,Organised,Normal,Normal,Free Form,Normal,Deep,Press,Normal,45,44.0,42,34,36,55,31,47,42
+10260,2,2,Manchester United,MUN,England,England Premier League,1729,1729,1724061,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,38,42.0,44,49,44,40,54,53,56
+8668,3,1,Everton,EVE,England,England Premier League,1729,1729,1724062,Balanced,Normal,Mixed,Organised,Little,Normal,Organised,Normal,Medium,Press,Normal,43,45.0,40,39,33,63,52,58,59
+8667,0,0,Hull City,HUL,England,England Premier League,1729,1729,1724063,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,56,40.0,55,54,49,56,38,37,46
+8455,1,1,Chelsea,CHE,England,England Premier League,1729,1729,1724064,Fast,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,67,41.0,36,41,34,44,39,41,46
+10252,0,2,Aston Villa,AVL,England,England Premier League,1729,1729,1724065,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,63,37.0,54,60,48,38,35,44,54
+10194,0,1,Stoke City,STK,England,England Premier League,1729,1729,1724066,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,48,41.0,49,51,59,49,44,37,51
+9825,2,0,Arsenal,ARS,England,England Premier League,1729,1729,1724067,Balanced,Normal,Short,Organised,Normal,Normal,Free Form,Safe,Medium,Press,Normal,59,51.0,30,28,44,46,51,44,52
+8197,0,2,Leicester City,LEI,England,England Premier League,1729,1729,1724068,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,63,41.0,60,47,64,46,58,65,55
+10261,2,1,Newcastle United,NEW,England,England Premier League,1729,1729,1724069,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,58,45.0,49,47,54,46,41,39,51
+9826,2,2,Crystal Palace,CRY,England,England Premier League,1729,1729,1724070,Balanced,Normal,Long,Organised,Lots,Normal,Organised,Risky,Medium,Press,Normal,61,45.0,67,67,69,50,36,34,41
+8456,1,2,Manchester City,MCI,England,England Premier League,1729,1729,1724071,Balanced,Normal,Short,Free Form,Normal,Little,Free Form,Normal,Medium,Press,Normal,59,35.0,29,38,36,24,48,47,54
+9851,1,2,Stade Rennais FC,REN,France,France Ligue 1,4769,4769,1709767,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,64,62.0,41,49,52,64,46,44,51
+7819,0,0,SM Caen,CAE,France,France Ligue 1,4769,4769,1709768,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,62,50.0,45,48,54,53,43,42,51
+7794,0,1,SC Bastia,BAS,France,France Ligue 1,4769,4769,1709769,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,61,61.0,52,56,51,49,44,55,48
+4087,2,0,Évian Thonon Gaillard FC,ETG,France,France Ligue 1,4769,4769,1709770,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,58,35.0,56,52,61,51,47,43,50
+9853,1,2,AS Saint-Étienne,ETI,France,France Ligue 1,4769,4769,1709771,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,58,55.0,52,48,64,52,48,51,49
+9837,0,3,Stade de Reims,REI,France,France Ligue 1,4769,4769,1709772,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Deep,Press,Normal,48,37.0,49,48,52,58,33,44,50
+9831,1,0,OGC Nice,NIC,France,France Ligue 1,4769,4769,1709773,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,48,55.0,53,49,66,38,57,47,61
+9747,1,2,En Avant de Guingamp,GUI,France,France Ligue 1,4769,4769,1709774,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,63,37.0,58,42,56,36,49,47,49
+9748,1,1,Olympique Lyonnais,LYO,France,France Ligue 1,4769,4769,1709775,Balanced,Normal,Mixed,Organised,Normal,Lots,Organised,Normal,Medium,Press,Normal,49,60.0,52,49,54,67,46,47,47
+9847,1,1,Paris Saint-Germain,PSG,France,France Ligue 1,4769,4769,1709776,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,49,47.0,34,62,61,35,57,53,56
+8689,2,0,FC Lorient,LOR,France,France Ligue 1,4769,4769,1709777,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,57,42.0,50,48,53,46,51,56,55
+8592,2,1,Olympique de Marseille,MAR,France,France Ligue 1,4769,4769,1709778,Balanced,Lots,Mixed,Organised,Lots,Little,Organised,Normal,Medium,Press,Normal,51,77.0,41,49,69,31,48,48,60
+8550,0,3,FC Metz,MET,France,France Ligue 1,4769,4769,1709779,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,55,48.0,49,46,54,53,39,46,42
+9830,1,0,FC Nantes,NAN,France,France Ligue 1,4769,4769,1709780,Balanced,Lots,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,63,70.0,56,52,55,46,39,41,52
+8639,0,3,LOSC Lille,LIL,France,France Ligue 1,4769,4769,1709781,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Risky,Medium,Press,Normal,45,36.0,43,68,52,64,59,42,48
+10249,1,1,Montpellier Hérault SC,MON,France,France Ligue 1,4769,4769,1709782,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,54,43.0,65,48,49,45,53,56,48
+9827,0,1,Girondins de Bordeaux,BOR,France,France Ligue 1,4769,4769,1709783,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,51,40.0,48,49,63,44,57,52,49
+8588,0,2,RC Lens,LEN,France,France Ligue 1,4769,4769,1709784,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,64,44.0,50,49,53,46,46,44,49
+9941,1,0,Toulouse FC,TOU,France,France Ligue 1,4769,4769,1709785,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,49,56.0,53,52,34,36,36,45,49
+9829,1,1,AS Monaco,MON,France,France Ligue 1,4769,4769,1709786,Balanced,Normal,Mixed,Organised,Normal,Little,Organised,Normal,Medium,Press,Normal,52,42.0,43,54,56,23,56,62,51
+8697,0,6,SV Werder Bremen,WBR,Germany,Germany 1. Bundesliga,7809,7809,1732778,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Risky,Medium,Press,Wide,56,55.0,63,68,66,58,63,47,73
+8177,0,2,Hertha BSC Berlin,HBE,Germany,Germany 1. Bundesliga,7809,7809,1732779,Balanced,Normal,Mixed,Organised,Lots,Normal,Organised,Normal,Medium,Press,Normal,47,44.0,55,59,68,45,50,45,57
+8406,1,2,FC Augsburg,AUG,Germany,Germany 1. Bundesliga,7809,7809,1732780,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,59,51.0,55,49,62,55,34,50,59
+9788,3,0,Borussia Mönchengladbach,GLA,Germany,Germany 1. Bundesliga,7809,7809,1732781,Slow,Normal,Short,Organised,Little,Normal,Free Form,Normal,Medium,Press,Normal,31,53.0,32,38,26,49,41,48,39
+8721,2,1,VfL Wolfsburg,WOL,Germany,Germany 1. Bundesliga,7809,7809,1732782,Fast,Normal,Mixed,Organised,Normal,Normal,Organised,Risky,Medium,Press,Normal,68,45.0,57,69,66,50,66,46,55
+8178,3,3,Bayer 04 Leverkusen,LEV,Germany,Germany 1. Bundesliga,7809,7809,1732783,Fast,Little,Mixed,Organised,Normal,Normal,Organised,Risky,Medium,Double,Normal,73,29.0,55,77,54,61,61,72,50
+8226,1,1,TSG 1899 Hoffenheim,HOF,Germany,Germany 1. Bundesliga,7809,7809,1732784,Fast,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,69,49.0,53,66,62,59,63,61,38
+9789,1,2,Borussia Dortmund,DOR,Germany,Germany 1. Bundesliga,7809,7809,1732785,Fast,Normal,Mixed,Organised,Normal,Normal,Free Form,Risky,Medium,Double,Normal,71,37.0,40,70,44,49,65,71,40
+9810,1,3,Eintracht Frankfurt,EFR,Germany,Germany 1. Bundesliga,7809,7809,1732786,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,51,41.0,38,47,58,40,48,42,55
+9904,1,0,Hannover 96,HAN,Germany,Germany 1. Bundesliga,7809,7809,1732787,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,48,55.0,41,38,51,40,35,50,61
+10189,0,1,FC Schalke 04,S04,Germany,Germany 1. Bundesliga,7809,7809,1732788,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,58,43.0,42,64,61,37,55,59,56
+9905,0,3,1. FSV Mainz 05,MAI,Germany,Germany 1. Bundesliga,7809,7809,1732789,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,60,43.0,53,49,40,44,55,62,47
+9823,0,0,FC Bayern Munich,BMU,Germany,Germany 1. Bundesliga,7809,7809,1732790,Balanced,Little,Short,Free Form,Little,Little,Free Form,Normal,High,Press,Normal,45,24.0,28,37,31,22,72,53,59
+8358,0,2,SC Freiburg,FRE,Germany,Germany 1. Bundesliga,7809,7809,1732791,Balanced,Normal,Mixed,Organised,Normal,Normal,Free Form,Normal,Medium,Press,Narrow,59,54.0,38,55,44,45,53,62,29
+8460,0,1,SC Paderborn 07,PAD,Germany,Germany 1. Bundesliga,7809,7809,1732792,Fast,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Deep,Contain,Normal,67,46.0,62,56,48,56,25,29,54
+9790,0,3,Hamburger SV,HAM,Germany,Germany 1. Bundesliga,7809,7809,1732793,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,42,56.0,52,62,58,47,44,41,49
+8722,1,0,1. FC Köln,FCK,Germany,Germany 1. Bundesliga,7809,7809,1732794,Balanced,Normal,Mixed,Organised,Normal,Lots,Organised,Normal,Medium,Press,Normal,59,47.0,65,57,36,71,42,56,51
+10269,5,4,VfB Stuttgart,STU,Germany,Germany 1. Bundesliga,7809,7809,1732795,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Narrow,59,55.0,41,58,66,48,41,44,32
+8636,1,0,Inter,INT,Italy,Italy Serie A,10257,10257,1786043,Balanced,Lots,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,58,69.0,54,56,60,53,47,49,63
+10233,2,1,Genoa,GEN,Italy,Italy Serie A,10257,10257,1786044,Balanced,Normal,Long,Organised,Normal,Little,Organised,Normal,Deep,Press,Normal,64,52.0,68,66,45,23,27,47,53
+8529,4,0,Cagliari,CAG,Italy,Italy Serie A,10257,10257,1786045,Fast,Little,Mixed,Organised,Normal,Lots,Free Form,Risky,Medium,Press,Normal,67,32.0,35,69,58,69,65,65,57
+8540,0,2,Palermo,PAL,Italy,Italy Serie A,10257,10257,1786046,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,66,66.0,36,60,34,64,44,58,50
+9804,1,2,Torino,TOR,Italy,Italy Serie A,10257,10257,1786047,Fast,Lots,Mixed,Organised,Lots,Normal,Organised,Normal,Medium,Press,Normal,69,69.0,36,37,69,53,39,46,52
+8535,1,1,Fiorentina,FIO,Italy,Italy Serie A,10257,10257,1786048,Balanced,Normal,Short,Organised,Normal,Normal,Organised,Risky,Medium,Press,Normal,34,54.0,33,68,51,53,58,59,61
+9876,2,6,Hellas Verona,VER,Italy,Italy Serie A,10257,10257,1786049,Balanced,Little,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,57,29.0,38,39,54,55,47,59,52
+7943,3,1,Sassuolo,SAS,Italy,Italy Serie A,10257,10257,1786050,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,57,65.0,60,56,57,56,38,47,53
+8686,0,0,Roma,ROM,Italy,Italy Serie A,10257,10257,1786051,Fast,Little,Mixed,Organised,Normal,Normal,Free Form,Risky,Medium,Press,Normal,68,27.0,47,71,54,66,36,57,48
+8524,0,2,Atalanta,ATA,Italy,Italy Serie A,10257,10257,1786052,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,64,45.0,37,38,49,51,36,63,49
+9875,1,1,Napoli,NAP,Italy,Italy Serie A,10257,10257,1786053,Balanced,Lots,Mixed,Organised,Normal,Lots,Organised,Risky,Medium,Press,Normal,53,70.0,37,68,54,67,47,57,53
+8564,1,1,Milan,ACM,Italy,Italy Serie A,10257,10257,1786054,Balanced,Lots,Mixed,Organised,Normal,Lots,Organised,Normal,Medium,Press,Normal,48,70.0,52,66,36,69,58,57,49
+8600,0,3,Udinese,UDI,Italy,Italy Serie A,10257,10257,1786055,Fast,Normal,Mixed,Organised,Lots,Normal,Organised,Risky,Medium,Press,Normal,68,54.0,63,69,68,52,40,57,57
+9885,0,1,Juventus,JUV,Italy,Italy Serie A,10257,10257,1786056,Balanced,Normal,Short,Organised,Normal,Lots,Organised,Normal,Medium,Press,Normal,50,35.0,20,65,50,80,35,65,35
+8543,1,1,Lazio,LAZ,Italy,Italy Serie A,10257,10257,1786057,Fast,Normal,Mixed,Organised,Lots,Lots,Free Form,Risky,Medium,Press,Normal,68,65.0,55,68,80,72,59,66,65
+9882,0,1,Sampdoria,SAM,Italy,Italy Serie A,10257,10257,1786058,Balanced,Normal,Mixed,Organised,Normal,Little,Organised,Normal,Medium,Press,Normal,36,56.0,38,49,52,29,50,51,53
+8533,0,1,Chievo Verona,CHI,Italy,Italy Serie A,10257,10257,1786059,Balanced,Normal,Long,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,66,54.0,67,52,66,52,46,59,51
+9880,0,2,Cesena,CES,Italy,Italy Serie A,10257,10257,1786060,Balanced,Little,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,66,31.0,41,53,44,66,39,49,57
+8534,1,3,Empoli,EMP,Italy,Italy Serie A,10257,10257,1786061,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,66,43.0,36,59,64,63,46,66,48
+10167,0,1,Parma,PAR,Italy,Italy Serie A,10257,10257,1786062,Balanced,Normal,Short,Organised,Normal,Normal,Organised,Risky,Medium,Press,Normal,48,66.0,33,69,62,45,43,43,46
+10235,4,0,Feyenoord,FEY,Netherlands,Netherlands Eredivisie,13274,13274,1712449,Balanced,Little,Mixed,Organised,Lots,Little,Organised,Normal,Medium,Press,Normal,50,33.0,48,48,67,31,43,46,40
+8525,0,1,Willem II,WII,Netherlands,Netherlands Eredivisie,13274,13274,1712454,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,51,36.0,63,48,53,52,43,45,47
+8640,0,1,PSV,PSV,Netherlands,Netherlands Eredivisie,13274,13274,1712456,Fast,Normal,Mixed,Organised,Normal,Little,Organised,Normal,Medium,Press,Normal,67,43.0,43,53,44,28,40,40,48
+9761,1,6,NAC Breda,NAC,Netherlands,Netherlands Eredivisie,13274,13274,1712458,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Safe,Medium,Press,Normal,45,49.0,59,32,42,54,36,39,40
+6631,1,4,FC Dordrecht,DOR,Netherlands,Netherlands Eredivisie,13274,13274,1712459,Balanced,Little,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,39,33.0,62,62,66,48,51,58,55
+10228,1,2,SC Heerenveen,HEE,Netherlands,Netherlands Eredivisie,13274,13274,1712460,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,54,40.0,56,65,43,44,46,44,48
+6433,3,2,Go Ahead Eagles,GAE,Netherlands,Netherlands Eredivisie,13274,13274,1712461,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,58,38.0,64,37,42,52,43,47,51
+8611,2,2,FC Twente,TWE,Netherlands,Netherlands Eredivisie,13274,13274,1712463,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,48,40.0,43,43,58,39,44,41,55
+8674,0,4,FC Groningen,GRO,Netherlands,Netherlands Eredivisie,13274,13274,1712464,Balanced,Little,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,55,32.0,55,57,59,54,49,47,53
+8277,4,1,Vitesse,VIT,Netherlands,Netherlands Eredivisie,13274,13274,1712466,Balanced,Normal,Mixed,Free Form,Normal,Lots,Free Form,Normal,Medium,Press,Normal,57,40.0,48,53,37,71,60,58,62
+10229,0,3,AZ,ALK,Netherlands,Netherlands Eredivisie,13274,13274,1712467,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Risky,Medium,Press,Normal,50,46.0,58,67,56,50,50,61,55
+10217,1,1,ADO Den Haag,HAA,Netherlands,Netherlands Eredivisie,13274,13274,1712468,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,56,40.0,66,55,52,38,40,50,52
+9791,1,2,Heracles Almelo,HER,Netherlands,Netherlands Eredivisie,13274,13274,1712469,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,50,36.0,61,48,58,59,60,62,47
+8593,1,1,Ajax,AJA,Netherlands,Netherlands Eredivisie,13274,13274,1712470,Balanced,Normal,Mixed,Organised,Normal,Little,Free Form,Normal,Medium,Press,Normal,35,43.0,39,58,55,30,64,53,59
+7788,2,2,SC Cambuur,CAM,Netherlands,Netherlands Eredivisie,13274,13274,1712471,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,43,36.0,57,46,50,38,42,49,47
+9908,3,1,FC Utrecht,UTR,Netherlands,Netherlands Eredivisie,13274,13274,1712472,Balanced,Normal,Mixed,Organised,Normal,Little,Organised,Normal,Medium,Press,Normal,50,39.0,54,55,64,28,54,58,47
+6413,2,3,PEC Zwolle,ZWO,Netherlands,Netherlands Eredivisie,13274,13274,1712473,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,45,35.0,56,57,50,58,58,60,63
+10218,1,1,Excelsior,EXC,Netherlands,Netherlands Eredivisie,13274,13274,1712474,Balanced,Normal,Long,Organised,Normal,Normal,Organised,Normal,Deep,Press,Normal,53,41.0,69,48,45,43,29,41,36
+1601,1,1,Ruch Chorzów,CHO,Poland,Poland Ekstraklasa,15722,15722,1722148,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,47,48.0,38,61,65,50,43,44,49
+8030,1,1,Lechia Gdańsk,LGD,Poland,Poland Ekstraklasa,15722,15722,1722149,Balanced,Normal,Mixed,Free Form,Normal,Normal,Organised,Normal,Medium,Press,Normal,62,48.0,52,66,59,58,51,58,40
+10265,4,2,Wisła Kraków,WIS,Poland,Poland Ekstraklasa,15722,15722,1722150,Slow,Normal,Mixed,Free Form,Normal,Little,Free Form,Safe,Medium,Press,Normal,33,49.0,37,33,37,31,62,58,37
+8019,1,2,Górnik Łęczna,LEC,Poland,Poland Ekstraklasa,15722,15722,1722151,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,41,40.0,59,41,44,54,52,47,50
+8025,3,4,Śląsk Wrocław,SLA,Poland,Poland Ekstraklasa,15722,15722,1722152,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,50,55.0,35,51,51,55,45,55,39
+8028,2,1,Piast Gliwice,PIG,Poland,Poland Ekstraklasa,15722,15722,1722153,Balanced,Normal,Long,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,64,52.0,67,64,66,39,36,45,48
+2182,0,1,Lech Poznań,POZ,Poland,Poland Ekstraklasa,15722,15722,1722154,Balanced,Normal,Mixed,Free Form,Lots,Lots,Free Form,Normal,Medium,Press,Normal,57,50.0,40,59,70,67,50,58,45
+8033,1,2,Podbeskidzie Bielsko-Biała,POD,Poland,Poland Ekstraklasa,15722,15722,1722155,Fast,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Deep,Press,Normal,68,55.0,66,66,51,49,29,35,38
+2186,2,4,Cracovia,CKR,Poland,Poland Ekstraklasa,15722,15722,1722156,Balanced,Normal,Mixed,Organised,Normal,Little,Organised,Normal,Medium,Press,Normal,37,50.0,38,66,66,33,59,34,64
+8673,3,0,Legia Warszawa,LEG,Poland,Poland Ekstraklasa,15722,15722,1722157,Balanced,Normal,Mixed,Organised,Normal,Normal,Free Form,Normal,Medium,Press,Normal,54,47.0,36,52,51,64,50,60,58
+8027,2,6,Zawisza Bydgoszcz,ZAW,Poland,Poland Ekstraklasa,15722,15722,1722158,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,54,51.0,40,46,49,52,44,47,52
+8023,1,0,Pogoń Szczecin,POG,Poland,Poland Ekstraklasa,15722,15722,1722159,Balanced,Little,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,50,33.0,36,52,40,52,57,54,47
+8569,1,0,GKS Bełchatów,BEL,Poland,Poland Ekstraklasa,15722,15722,1722160,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,52,48.0,43,52,37,50,47,45,40
+8245,0,1,Korona Kielce,KKI,Poland,Poland Ekstraklasa,15722,15722,1722161,Balanced,Lots,Mixed,Organised,Normal,Normal,Organised,Normal,Deep,Press,Normal,59,69.0,50,64,53,36,30,43,62
+8020,3,0,Polonia Bytom,GOR,Poland,Poland Ekstraklasa,15722,15722,1722162,Balanced,Little,Mixed,Organised,Little,Normal,Organised,Normal,Medium,Press,Normal,46,47.5,38,36,33,53,53,54,55
+1957,0,0,Jagiellonia Białystok,BIA,Poland,Poland Ekstraklasa,15722,15722,1722163,Balanced,Normal,Mixed,Organised,Little,Normal,Organised,Normal,Medium,Press,Normal,66,54.0,38,53,33,66,57,56,49
+9773,5,0,FC Porto,POR,Portugal,Portugal Liga ZON Sagres,17642,17642,1748780,Fast,Normal,Mixed,Organised,Normal,Lots,Organised,Normal,Medium,Press,Normal,70,50.0,53,56,66,68,58,60,60
+6403,2,1,FC Paços de Ferreira,FER,Portugal,Portugal Liga ZON Sagres,17642,17642,1748781,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,63,40.0,39,64,53,52,36,39,64
+10215,0,1,Académica de Coimbra,ACA,Portugal,Portugal Liga ZON Sagres,17642,17642,1748782,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,53,53.0,44,55,51,60,39,38,61
+9807,2,1,CF Os Belenenses,BEL,Portugal,Portugal Liga ZON Sagres,17642,17642,1748783,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,51,53.0,52,43,37,48,38,48,49
+9772,1,2,SL Benfica,BEN,Portugal,Portugal Liga ZON Sagres,17642,17642,1748784,Fast,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,69,55.0,53,65,66,54,60,57,54
+9764,0,2,Gil Vicente FC,GV,Portugal,Portugal Liga ZON Sagres,17642,17642,1748785,Fast,Lots,Mixed,Organised,Normal,Normal,Free Form,Normal,Medium,Press,Normal,68,67.0,41,54,47,46,39,40,53
+7844,1,0,Vitória Guimarães,GUI,Portugal,Portugal Liga ZON Sagres,17642,17642,1748786,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,40,52.0,39,53,62,58,37,40,64
+10212,2,4,CS Marítimo,MAR,Portugal,Portugal Liga ZON Sagres,17642,17642,1748787,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Risky,Medium,Press,Normal,61,49.0,66,67,64,55,38,49,46
+6547,2,3,FC Penafiel,PEN,Portugal,Portugal Liga ZON Sagres,17642,17642,1748788,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,54,54.0,39,52,56,38,40,35,46
+10264,1,1,SC Braga,BRA,Portugal,Portugal Liga ZON Sagres,17642,17642,1748789,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Deep,Press,Normal,55,35.0,55,62,65,39,25,56,39
+8613,1,3,Boavista FC,BOA,Portugal,Portugal Liga ZON Sagres,17642,17642,1748790,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Deep,Press,Normal,47,56.0,50,37,38,53,32,62,54
+7841,0,1,Rio Ave FC,RA,Portugal,Portugal Liga ZON Sagres,17642,17642,1748791,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,66,47.0,44,58,65,54,39,48,66
+10238,1,4,Vitória Setúbal,SET,Portugal,Portugal Liga ZON Sagres,17642,17642,1748792,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,58,49.0,42,54,52,52,37,37,58
+9768,0,3,Sporting CP,SCP,Portugal,Portugal Liga ZON Sagres,17642,17642,1748793,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,57,65.0,56,42,50,55,60,60,54
+8348,2,1,Moreirense FC,MOR,Portugal,Portugal Liga ZON Sagres,17642,17642,1748794,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,38,58.0,43,51,54,39,44,46,48
+158085,1,1,FC Arouca,ARO,Portugal,Portugal Liga ZON Sagres,17642,17642,1748795,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,65,66.0,39,55,59,46,37,39,37
+7842,2,1,Estoril Praia,EST,Portugal,Portugal Liga ZON Sagres,17642,17642,1748796,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,59,56.0,52,47,53,39,46,49,55
+10214,0,2,CD Nacional,NAC,Portugal,Portugal Liga ZON Sagres,17642,17642,1748797,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,65,59.0,43,53,44,53,42,42,57
+8597,0,0,Kilmarnock,KIL,Scotland,Scotland Premier League,19694,19694,1726058,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,50,48.0,60,49,62,47,46,46,52
+8066,2,3,Inverness Caledonian Thistle,INV,Scotland,Scotland Premier League,19694,19694,1726061,Balanced,Normal,Short,Organised,Normal,Lots,Free Form,Normal,Medium,Press,Normal,48,47.0,32,57,48,69,44,44,51
+8467,0,2,St. Johnstone FC,JOH,Scotland,Scotland Premier League,19694,19694,1726062,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,62,52.0,48,47,49,40,37,48,55
+8426,0,3,Partick Thistle F.C.,PAR,Scotland,Scotland Premier League,19694,19694,1726063,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,48,48.0,47,47,53,60,46,46,49
+8284,1,2,Dundee FC,DUF,Scotland,Scotland Premier League,19694,19694,1726065,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Safe,Medium,Press,Normal,47,47.0,48,32,61,65,50,44,52
+9925,2,1,Celtic,CEL,Scotland,Scotland Premier League,19694,19694,1726066,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,54,49.0,53,51,51,62,58,55,56
+8429,1,0,Hamilton Academical FC,HAM,Scotland,Scotland Premier League,19694,19694,1726067,Balanced,Normal,Mixed,Free Form,Normal,Lots,Organised,Risky,Medium,Press,Normal,48,48.0,47,73,53,71,55,48,52
+8485,3,2,Aberdeen,ABE,Scotland,Scotland Premier League,19694,19694,1726068,Balanced,Normal,Mixed,Organised,Lots,Normal,Free Form,Normal,Medium,Press,Normal,59,64.0,53,51,72,63,49,45,63
+8649,1,1,Ross County FC,ROS,Scotland,Scotland Premier League,19694,19694,1726069,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,45,48.0,60,46,49,58,36,53,34
+9938,0,2,Dundee United,DUU,Scotland,Scotland Premier League,19694,19694,1726070,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,60,58.0,53,55,49,45,48,42,53
+9927,1,3,Motherwell,MOT,Scotland,Scotland Premier League,19694,19694,1726071,Balanced,Normal,Mixed,Organised,Normal,Little,Organised,Normal,Medium,Press,Normal,64,46.0,55,44,45,27,37,44,51
+9800,2,1,St. Mirren,MIR,Scotland,Scotland Premier League,19694,19694,1726072,Balanced,Normal,Short,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,38,53.0,33,53,58,53,60,58,48
+7869,1,1,Córdoba CF,COR,Spain,Spain LIGA BBVA,21518,21518,1778094,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,53,40.0,48,55,59,57,38,39,52
+9864,2,1,Málaga CF,MAL,Spain,Spain LIGA BBVA,21518,21518,1778104,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,42,51.0,36,41,40,50,47,37,52
+8305,2,1,Getafe CF,GET,Spain,Spain LIGA BBVA,21518,21518,1778105,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,34,41.0,38,55,39,49,43,42,49
+8558,0,2,RCD Espanyol,ESP,Spain,Spain LIGA BBVA,21518,21518,1778106,Balanced,Normal,Mixed,Organised,Normal,Normal,Free Form,Normal,Medium,Press,Normal,50,52.0,44,52,60,40,37,40,45
+10267,0,3,Valencia CF,VAL,Spain,Spain LIGA BBVA,21518,21518,1778107,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,35,46.0,35,37,51,58,49,45,53
+8302,2,0,Sevilla FC,SEV,Spain,Spain LIGA BBVA,21518,21518,1778108,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,53,53.0,53,53,52,60,42,48,59
+9865,0,2,UD Almería,ALM,Spain,Spain LIGA BBVA,21518,21518,1778109,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,46,41.0,65,57,54,40,37,53,45
+9910,1,1,RC Celta de Vigo,CEL,Spain,Spain LIGA BBVA,21518,21518,1778110,Balanced,Normal,Mixed,Organised,Normal,Normal,Free Form,Normal,Medium,Press,Normal,55,59.0,38,41,48,50,55,55,59
+8633,5,0,Real Madrid CF,REA,Spain,Spain LIGA BBVA,21518,21518,1778111,Balanced,Normal,Mixed,Free Form,Normal,Normal,Free Form,Normal,Medium,Press,Normal,50,57.0,46,61,41,63,52,60,63
+8372,0,3,SD Eibar,EIB,Spain,Spain LIGA BBVA,21518,21518,1778112,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,62,51.0,52,59,55,52,37,56,49
+8560,1,1,Real Sociedad,SOC,Spain,Spain LIGA BBVA,21518,21518,1778114,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,60,52.0,50,54,60,52,49,53,53
+9906,1,0,Atlético Madrid,AMA,Spain,Spain LIGA BBVA,21518,21518,1778115,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,57,50.0,50,61,62,49,49,42,52
+9783,0,0,RC Deportivo de La Coruña,COR,Spain,Spain LIGA BBVA,21518,21518,1778116,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,53,55.0,47,38,52,55,45,50,59
+10268,1,3,Elche CF,ELC,Spain,Spain LIGA BBVA,21518,21518,1778117,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,51,52.0,48,53,54,57,49,51,58
+10205,1,2,Villarreal CF,VIL,Spain,Spain LIGA BBVA,21518,21518,1778118,Balanced,Normal,Mixed,Free Form,Normal,Normal,Free Form,Normal,Medium,Press,Normal,48,42.0,36,36,52,55,47,48,44
+8315,1,0,Athletic Club de Bilbao,BIL,Spain,Spain LIGA BBVA,21518,21518,1778119,Balanced,Normal,Mixed,Organised,Normal,Normal,Free Form,Normal,Medium,Press,Normal,46,46.0,39,50,60,36,49,57,50
+8581,0,3,Levante UD,LEV,Spain,Spain LIGA BBVA,21518,21518,1778120,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Risky,Medium,Contain,Normal,62,36.0,65,71,42,65,36,33,42
+8634,1,3,FC Barcelona,BAR,Spain,Spain LIGA BBVA,21518,21518,1778121,Balanced,Normal,Mixed,Free Form,Normal,Normal,Free Form,Normal,Medium,Press,Normal,36,35.0,51,36,49,56,61,65,65
+7878,1,1,Granada CF,GRA,Spain,Spain LIGA BBVA,21518,21518,1778122,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,57,50.0,59,61,63,51,48,45,62
+8370,0,4,Rayo Vallecano,RAY,Spain,Spain LIGA BBVA,21518,21518,1778123,Slow,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,29,52.0,44,44,44,47,54,52,63
+10243,2,0,FC Zürich,ZUR,Switzerland,Switzerland Super League,24558,24558,1717246,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,62,49.0,46,47,50,54,47,43,56
+9931,1,3,FC Basel,BAS,Switzerland,Switzerland Super League,24558,24558,1717249,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,61,63.0,46,66,66,54,47,58,53
+10191,1,2,FC Thun,THU,Switzerland,Switzerland Super League,24558,24558,1717250,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,58,59.0,35,64,36,66,47,45,53
+10190,2,2,FC St. Gallen,GAL,Switzerland,Switzerland Super League,24558,24558,1717252,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,52,46.0,48,39,39,37,40,36,52
+10179,1,4,FC Sion,SIO,Switzerland,Switzerland Super League,24558,24558,1717253,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,61,57.0,37,62,50,53,45,47,54
+9824,1,3,FC Vaduz,VAD,Switzerland,Switzerland Super League,24558,24558,1717254,Balanced,Little,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Contain,Normal,53,32.0,56,38,53,46,42,33,58
+10199,2,3,FC Luzern,LUZ,Switzerland,Switzerland Super League,24558,24558,1717255,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,63,51.0,51,54,40,66,48,53,50
+9956,0,3,Grasshopper Club Zürich,GRA,Switzerland,Switzerland Super League,24558,24558,1717256,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,50,60.0,54,52,54,46,36,43,47
+9930,0,0,FC Aarau,AAR,Switzerland,Switzerland Super League,24558,24558,1717257,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,47,41.0,54,54,63,64,47,44,54
+10192,1,0,BSC Young Boys,YB,Switzerland,Switzerland Super League,24558,24558,1717258,Balanced,Normal,Mixed,Organised,Normal,Normal,Organised,Normal,Medium,Press,Normal,52,56.0,64,39,66,46,44,34,50
