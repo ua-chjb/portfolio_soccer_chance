@@ -1,5 +1,69 @@
+ /* * {
+    font-family: calibri;
+    background-color:green;
+    color: white;
+ } */
+
+/* this is set by Dash */
+.card {
+    margin: 10px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.knucklepuck {
+    transition: 0.3s;
+    border-radius: 3px;
+    margin: 0;
+
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    padding: 10px;
+    /* margin: 0 0 20px 0; */
+}
+
+.knucklepuck:hover {
+    box-shadow: 0 16px 32px 0 lightgray;
+    cursor: default;
+}
+
 .flex_daddy {
+    /* height: ; */
     display: flex;
     justify-content: space-around;
-    /* flex-grow: 1, 1; */
+    flex-grow: 1, 1;
+}
+
+/* .above {
+    height: 80vh;
+} */
+
+.inner_fd {
+    display: flex;
+    flex-direction: column;
+}
+.headercenter {
+    display: flex;
+    justify-content: center;
+}
+.centerflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45vw;
+    padding-bottom: 30px;
+}
+
+/* this is going to require flex-grow, but shrink */
+/* .above {
+    height:120vh;
+} */
+
+.dropdown {
+    width: 20vw;
+    padding: 0.35vw;
+
 }
