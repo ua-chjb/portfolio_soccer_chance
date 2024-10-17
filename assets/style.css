@@ -1,8 +1,6 @@
- /* * {
+ * {
     font-family: calibri;
-    background-color:green;
-    color: white;
- } */
+ }
 
 /* this is set by Dash */
 .card {
@@ -28,7 +26,7 @@ h1 {
 }
 
 .knucklepuck:hover {
-    box-shadow: 0 16px 32px 0 lightgray;
+    box-shadow: 0 6px 12px 0 lightgray;
     cursor: default;
 }
 
@@ -78,5 +76,6 @@ h1 {
 .dropdown {
     width: 20vw;
     padding: 0.35vw;
+    cursor: default;
 
 }

@@ -14,7 +14,7 @@ home = home.sort_values(by=["buildUpPlaySpeed"], ascending=False)
 away = away.sort_values(by=["buildUpPlaySpeed"], ascending=False)
 
 ############################# chart 1 ####################################
-def star_chart(df, mask_team, color="darkblue", cols=cols):
+def star_chart(df, mask_team, color, cols=cols):
 
     df1 = df[mask_team]
     
@@ -31,19 +31,15 @@ import plotly.graph_objs as go
 def score_output(df1, df2, mask1, mask2):
 
     x =["A"]
+    
     y1 = home[mask1]["home_team_goal"].values
     y2 = away[mask2]["away_team_goal"].values
 
-    name_home = str(home[mask1]["team_long_name"].values[0]) + ", home"
-    name_away = str(away[mask2]["team_long_name"].values[0]) + ", away"
+    name_home = str(home[mask1]["team_long_name"].values[0]) + "@ home"
+    name_away = str(away[mask2]["team_long_name"].values[0]) + "@ away"
 
     customdata1 = np.array([[h*1] for h in [y1]])
     customdata2 = np.array([[h*1] for h in [y2]])
-    print("y1 is", y1)
-    print("y2 is", y2)
-
-    maximum = list(customdata1) + list(customdata2)
-
 
     trace1 = go.Bar(y=x, 
                     x=-1 * y1, 

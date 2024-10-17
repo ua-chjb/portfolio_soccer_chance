@@ -1,4 +1,4 @@
-from dash import Input, Output, State
+from dash import Input, Output, State, exceptions
 from charts import home, away, star_chart, score_output
 
 def callbacks_baby(app):
@@ -20,15 +20,17 @@ def callbacks_baby(app):
     def left_dropdown_league_to_team(league_value):
         mask_league = ( home["league_name"]==league_value )
         home2 = home[mask_league].copy()
-        return [{"label": j, "value": j} for j in home2["team_long_name"].unique()]
+        return [j for j in home2["team_long_name"].unique()]
     @app.callback(
         Output(component_id="leftpolar", component_property="figure"),
         Input(component_id="left_tm_dd", component_property="value"),
     )
     def polarline_left(team_name):
+        if team_name==None:
+            raise exceptions.PreventUpdate
         mask_team = ( home["team_long_name"]==team_name )
         home3 = home[mask_team].copy()
-        return star_chart(home3, mask_team)
+        return star_chart(home3, mask_team, "teal")
         
 ################# right ##################
     # right dropdowns to polar    
@@ -55,15 +57,18 @@ def callbacks_baby(app):
         Input(component_id="right_tm_dd", component_property="value"),
     )
     def polarline_right(team_name):
-        mask_team = ( away["team_long_name"]==team_name )
-        away3 = away[mask_team].copy()
-        return star_chart(away3, mask_team)
+        if team_name==None:
+            raise exceptions.PreventUpdate
+        else:
+            mask_team = ( away["team_long_name"]==team_name )
+            away3 = away[mask_team].copy()
+            return star_chart(away3, mask_team, "darkblue")
         
 ################# bottom graph ###############       
     @app.callback(
         Output(component_id="win_lose", component_property="figure"),
-        Input(component_id="left_tm_dd", component_property="value1"),
-        Input(component_id="right_tm_dd", component_property="value2")
+        [Input(component_id="left_tm_dd", component_property="value"),
+        Input(component_id="right_tm_dd", component_property="value")]
         )
     def home_or_away(value1, value2):
         mask_home = ( home["team_long_name"]==value1 )
