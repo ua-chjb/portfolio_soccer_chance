@@ -75,7 +75,7 @@ def callbacks_baby(app):
         )
     def home_or_away(n_clicks, value1, value2):
         if n_clicks==0:
-            return score_output(home, away, "Liverpool", "Leicester City")
+            return score_output(home, away, "Liverpool", "Leicester City", title=None, shlg=False)
         else:
             print(n_clicks)
-            return score_output(home, away, value1, value2)
+            return score_output(home, away, value1, value2, title=f"Goals, {value1} @home v {value2} @away", shlg=True)

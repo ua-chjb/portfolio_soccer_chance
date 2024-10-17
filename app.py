@@ -7,6 +7,8 @@ app = Dash(__name__)
 
 app.layout = lyt
 
+server = app.server
+
 callbacks_baby(app)
 
 if __name__ == '__main__':

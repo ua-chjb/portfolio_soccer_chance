@@ -18,7 +18,7 @@ def star_chart(df, mask_team, color, cols):
 
 import plotly.graph_objs as go
 
-def score_output(df1, df2, value1, value2):
+def score_output(df1, df2, value1, value2, title, shlg):
 
     mask_home = ( df1["team_long_name"]==value1 )
     mask_away = ( df2["team_long_name"]==value2 )
@@ -58,8 +58,8 @@ def score_output(df1, df2, value1, value2):
     
     fig = go.Figure(traces).update_layout({"barmode": "relative", 
                                      "xaxis": {"range": [-5, 5]},
-                                     "title": {"text": f"Total Goals, {value1} @home v {value2} @away", "x": 0.5},
-                                     "legend": {"title": "legend", "orientation": "h",},
+                                     "title": {"text": title, "x": 0.5},
+                                     "legend": {"title": "legend", "orientation": "h", "visible":shlg},
                                     }).update_xaxes({"zerolinewidth":5, "zerolinecolor": "lightgreen", "showticklabels": False
                                     }).update_yaxes({"showticklabels": False})
     return [fig]
