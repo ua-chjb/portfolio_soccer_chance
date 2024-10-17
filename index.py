@@ -1,10 +1,10 @@
 import dash_bootstrap_components as dbc
 from dash import html
 from dash import dcc
-from dash import Input, Output, callback
 
 from charts import home, away
 
+########################## left #########################3
 
 Card_left_top = dbc.Card(
     dbc.CardBody([
@@ -16,7 +16,7 @@ Card_left_top = dbc.Card(
             value=home["country_name"].unique()[0],
             multi=False,
             searchable=True,
-            id="ct_dd",
+            id="left_ct_dd",
             className="dropdown",
             ),
         dcc.Dropdown(
@@ -25,7 +25,7 @@ Card_left_top = dbc.Card(
             # value=home["league_name"].unique()[0],
             multi=False,
             searchable=True,
-            id="lg_dd",
+            id="left_lg_dd",
             className="dropdown",
             ),
         dcc.Dropdown(
@@ -34,7 +34,7 @@ Card_left_top = dbc.Card(
             # value=home["team_long_name"].unique()[0],
             multi=False,
             searchable=True,
-            id="tm_dd",
+            id="left_tm_dd",
             className="dropdown",
             ),
     ], className="knucklepuck centerflex")
@@ -45,6 +45,7 @@ Card_left_bottom = dbc.Card(
         dcc.Graph(figure={}, id="leftpolar")
     ], className="knucklepuck home")
 )
+########################## right #########################3
 
 Card_right_top = dbc.Card(
     dbc.CardBody([
@@ -57,27 +58,27 @@ Card_right_top = dbc.Card(
             multi=False,
             searchable=True,
             clearable=False,
-            id="right_country_dropdown",
+            id="right_ct_dd",
             className="dropdown"
             ),
         dcc.Dropdown(
-            # options=[],
-            options=[j for j in away["league_name"].unique()],
-            value=away["league_name"].unique()[0],
+            options=[],
+            # options=[j for j in away["league_name"].unique()],
+            # value=away["league_name"].unique()[0],
             multi=False,
             searchable=True,
             clearable=False,
-            id="right_league_dropdown",
+            id="right_lg_dd",
             className="dropdown"
             ),
         dcc.Dropdown(
-            # options=[],
-            options=[j for j in away["team_long_name"].unique()],
-            value=away["team_long_name"].unique()[0],
+            options=[],
+            # options=[j for j in away["team_long_name"].unique()],
+            # value=away["team_long_name"].unique()[0],
             multi=False,
             searchable=True,
             clearable=False,
-            id="right_team_dropdown",
+            id="right_tm_dd",
             className="dropdown"
             ),
     ], className="knucklepuck centerflex")
@@ -85,21 +86,21 @@ Card_right_top = dbc.Card(
 
 Card_right_bottom = dbc.Card(
     dbc.CardBody([
-        dcc.Graph(figure={}, id="graph_left")
+        dcc.Graph(figure={}, id="rightpolar")
     ], className="knucklepuck away")
 )
 
 
-REALLY = dcc.Dropdown(
-    options=[j for j in away["team_long_name"].unique()[:2]],
-    id="SIMPLE"
-)
+########################## graph at bottom #########################3
 
 Card_below_fold = dbc.Card(
     dbc.CardBody([
         dcc.Graph(id="win_lose", figure={})
     ], className="knucklepuck"),
 )
+
+########################## summary #########################3
+
 
 main_content = html.Div([
     html.Div([
@@ -119,9 +120,8 @@ main_content = html.Div([
     Card_below_fold
 
 ])
+########################## exec summary #########################3
 
-
-layout = dbc.Container([
+lyt = dbc.Container([
     main_content,
-    REALLY
 ])

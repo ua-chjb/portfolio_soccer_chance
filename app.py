@@ -1,17 +1,13 @@
-import dash
-import dash_bootstrap_components as dbc
+from dash import Dash
 
-# from server import server_var, app_var
-from index import layout
+from index import lyt
+from callbacks import callbacks_baby
 
-app = dash.Dash(__name__)
+app = Dash(__name__)
 
-server = app.server
+app.layout = lyt
 
-app.layout = layout
+callbacks_baby(app)
 
 if __name__ == '__main__':
-    app.run_server(debug=True, 
-        # host='0.0.0.0'
-        port='8080'
-        )
+    app.run_server(debug=True,port='8080' )

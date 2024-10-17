@@ -13,6 +13,8 @@ h1 {
     margin: 10px;
 }
 
+/* card styling */
+
 .knucklepuck {
     transition: 0.3s;
     border-radius: 3px;
@@ -29,6 +31,10 @@ h1 {
     box-shadow: 0 16px 32px 0 lightgray;
     cursor: default;
 }
+
+/* flexboxes */
+
+/*  parent */
 
 .flex_daddy {
     /* height: ; */
@@ -55,6 +61,12 @@ h1 {
     align-items: center;
     width: 45vw;
     padding-bottom: 30px;
+    flex: 2 2 2;
+}
+/*  children */
+.home, .away {
+    flex: 1 1 1;
+
 }
 
 /* this is going to require flex-grow, but shrink */
@@ -62,6 +74,7 @@ h1 {
     height:120vh;
 } */
 
+/* dcc components */
 .dropdown {
     width: 20vw;
     padding: 0.35vw;
