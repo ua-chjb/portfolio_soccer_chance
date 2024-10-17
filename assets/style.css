@@ -98,9 +98,10 @@ h1 {
     height: 10vh;
     width: 12vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(236, 137, 153);
+    background-color: hotpink;
     border-radius:0.75em;
-    border-color:aliceblue;
+    border-color:hotpink;
+    border-style: solid;
     color: white;
     /* size:10em; */
     font-size:2em;

@@ -68,59 +68,14 @@ def callbacks_baby(app):
 ################# bottom graph ###############       
     @app.callback(
         [Output(component_id="win_lose", component_property="figure")],
-        # [Input(component_id="left_tm_dd", component_property="value"),
-        # Input(component_id="right_tm_dd", component_property="value")]
         [Input(component_id="thebutton", component_property="n_clicks")],
         [State(component_id="left_tm_dd", component_property="value"),
         State(component_id="right_tm_dd", component_property="value")]
 
         )
     def home_or_away(n_clicks, value1, value2):
-        print(n_clicks)
-        return score_output(home, away, value1, value2)
-
-
-
-
-
-
-
-
-
-
-# below here is trash
-# @app.callback(
-#         Output(component_id="away_polar", component_property="figure"),
-#         Input(component_id="right_team_dropdown", component_property="value")
-# )
-# def away_polar(value):
-#     mask_team = ( home["team_long_name"]==value )
-#     home1 = home[mask_team].copy()
-#     return star_chart(home1, "Belgium", "Belgium Jupiler League", value)
-
-# below here is good
-# above here should work fine
-
-    # mask2 = ( df2["league_name"]==value2 )
-    # df3 = df2[mask2]
-    # mask3 =  (df3["team_long_name"]==value3 )
-    # df_final = df3[mask3]
-
-    # return star_chart(df_final, value1, value2, value3)
-
-# @callback(
-#     Output(component_id="graph_left", component_property="figure"),
-#     [Input(component_id="left_team_dropdown", component_property="value")],
-#     [State("left_country_dropdown", "value"),
-#     State("left_league_dropdown", "value")],
-# )
-# def update_bool(value1, value2, value3):
-#     mask1 = ( home["country_name"]==value1 )
-
-#     df2 = home[mask1]
-#     mask2 = ( df2["league_name"]==value2 )
-#     df3 = df2[mask2]
-#     mask3 =  (df3["team_long_name"]==value3 )
-#     df_final = df3[mask3]
-
-#     return star_chart(df_final, value1, value2, value3)
+        if n_clicks==0:
+            return score_output(home, away, "Liverpool", "Leicester City")
+        else:
+            print(n_clicks)
+            return score_output(home, away, value1, value2)
