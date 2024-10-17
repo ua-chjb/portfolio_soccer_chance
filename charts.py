@@ -3,18 +3,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objs as go
 
-home = pd.read_csv("https://raw.githubusercontent.com/ua-chjb/soccer_chance/refs/heads/main/assets/data/home.csv")
-away = pd.read_csv("https://raw.githubusercontent.com/ua-chjb/soccer_chance/refs/heads/main/assets/data/away.csv")
-
-cols = ['buildUpPlaySpeed', 'buildUpPlayDribbling', 'buildUpPlayPassing', 
-        'chanceCreationPassing', 'chanceCreationCrossing', 'chanceCreationShooting', 
-        'defencePressure', 'defenceAggression', 'defenceTeamWidth']
-
-home = home.sort_values(by=["buildUpPlaySpeed"], ascending=False)
-away = away.sort_values(by=["buildUpPlaySpeed"], ascending=False)
-
 ############################# chart 1 ####################################
-def star_chart(df, mask_team, color, cols=cols):
+def star_chart(df, mask_team, color, cols):
 
     df1 = df[mask_team]
     
@@ -28,15 +18,17 @@ def star_chart(df, mask_team, color, cols=cols):
 
 import plotly.graph_objs as go
 
-def score_output(df1, df2, mask1, mask2):
+def score_output(df1, df2, value1, value2):
 
+    mask_home = ( df1["team_long_name"]==value1 )
+    mask_away = ( df2["team_long_name"]==value2 )
     x =["A"]
-    
-    y1 = home[mask1]["home_team_goal"].values
-    y2 = away[mask2]["away_team_goal"].values
 
-    name_home = str(home[mask1]["team_long_name"].values[0]) + "@ home"
-    name_away = str(away[mask2]["team_long_name"].values[0]) + "@ away"
+    y1 = df1[mask_home]["home_team_goal"].values
+    y2 = df2[mask_away]["away_team_goal"].values
+    
+    name_home = str(df1[mask_home]["team_long_name"].values[0]) + " @home"
+    name_away = str(df2[mask_away]["team_long_name"].values[0]) + " @away"
 
     customdata1 = np.array([[h*1] for h in [y1]])
     customdata2 = np.array([[h*1] for h in [y2]])
@@ -66,8 +58,8 @@ def score_output(df1, df2, mask1, mask2):
     
     fig = go.Figure(traces).update_layout({"barmode": "relative", 
                                      "xaxis": {"range": [-5, 5]},
-                                     "title": {"text": "goals, home v away", "x": 0.5},
+                                     "title": {"text": f"Total Goals, {value1} @home v {value2} @away", "x": 0.5},
                                      "legend": {"title": "legend", "orientation": "h",},
                                     }).update_xaxes({"zerolinewidth":5, "zerolinecolor": "lightgreen", "showticklabels": False
                                     }).update_yaxes({"showticklabels": False})
-    return fig
+    return [fig]

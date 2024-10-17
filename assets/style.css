@@ -1,6 +1,6 @@
  * {
-    font-family: calibri;
- }
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
 
 /* this is set by Dash */
 .card {
@@ -22,7 +22,6 @@ h1 {
     -webkit-box-shadow: 0 0 3px #ccc;
     box-shadow: 0 0 3px #ccc;
     padding: 10px;
-    /* margin: 0 0 20px 0; */
 }
 
 .knucklepuck:hover {
@@ -31,7 +30,6 @@ h1 {
 }
 
 /* flexboxes */
-
 /*  parent */
 
 .flex_daddy {
@@ -61,21 +59,62 @@ h1 {
     padding-bottom: 30px;
     flex: 2 2 2;
 }
+
+.blow_fold_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*  children */
 .home, .away {
     flex: 1 1 1;
 
 }
 
+#win_lose {
+    width:100vw;
+}
 /* this is going to require flex-grow, but shrink */
 /* .above {
     height:120vh;
 } */
 
-/* dcc components */
+/* components */
 .dropdown {
     width: 20vw;
     padding: 0.35vw;
     cursor: default;
+
+}
+
+
+/* .cntrthbtn {
+    display: flex;
+    justify-content: center;
+} */
+
+#thebutton {
+    height: 10vh;
+    width: 12vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(236, 137, 153);
+    border-radius:0.75em;
+    border-color:aliceblue;
+    color: white;
+    /* size:10em; */
+    font-size:2em;
+    letter-spacing: 1.25px;
+    margin:0.5em 0 .5em 0;
+    transition: 0.3s;
+
+
+    z-index: 1;
+
+}
+
+#thebutton:hover {
+    box-shadow: 0 6px 12px 0 lightgray;
+    cursor: pointer;
 
 }

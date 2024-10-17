@@ -1,5 +1,6 @@
 from dash import Input, Output, State, exceptions
-from charts import home, away, star_chart, score_output
+from charts import star_chart, score_output
+from read_data import home, away, cols
 
 def callbacks_baby(app):
 ################# left ##################    
@@ -30,7 +31,7 @@ def callbacks_baby(app):
             raise exceptions.PreventUpdate
         mask_team = ( home["team_long_name"]==team_name )
         home3 = home[mask_team].copy()
-        return star_chart(home3, mask_team, "teal")
+        return star_chart(home3, mask_team, "teal", cols)
         
 ################# right ##################
     # right dropdowns to polar    
@@ -62,18 +63,21 @@ def callbacks_baby(app):
         else:
             mask_team = ( away["team_long_name"]==team_name )
             away3 = away[mask_team].copy()
-            return star_chart(away3, mask_team, "darkblue")
+            return star_chart(away3, mask_team, "darkblue", cols)
         
 ################# bottom graph ###############       
     @app.callback(
-        Output(component_id="win_lose", component_property="figure"),
-        [Input(component_id="left_tm_dd", component_property="value"),
-        Input(component_id="right_tm_dd", component_property="value")]
+        [Output(component_id="win_lose", component_property="figure")],
+        # [Input(component_id="left_tm_dd", component_property="value"),
+        # Input(component_id="right_tm_dd", component_property="value")]
+        [Input(component_id="thebutton", component_property="n_clicks")],
+        [State(component_id="left_tm_dd", component_property="value"),
+        State(component_id="right_tm_dd", component_property="value")]
+
         )
-    def home_or_away(value1, value2):
-        mask_home = ( home["team_long_name"]==value1 )
-        mask_away = ( away["team_long_name"]==value2 )
-        return score_output(home, away, mask_home, mask_away)
+    def home_or_away(n_clicks, value1, value2):
+        print(n_clicks)
+        return score_output(home, away, value1, value2)
 
 
 

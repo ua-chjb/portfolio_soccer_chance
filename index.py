@@ -1,8 +1,7 @@
 import dash_bootstrap_components as dbc
-from dash import html
-from dash import dcc
+from dash import html, dcc
 
-from charts import home, away
+from read_data import home, away, cols
 
 ########################## left #########################3
     # top left graph
@@ -97,10 +96,16 @@ Card_right_bottom = dbc.Card(
 
 ########################## graph at bottom #########################3
 
+
 Card_below_fold = dbc.Card(
     dbc.CardBody([
-        dcc.Graph(id="win_lose", figure={})
-    ], className="knucklepuck"),
+        html.Div([
+            html.Button("Play", n_clicks=0, id="thebutton"),
+        ]),
+        html.Div([
+            dcc.Graph(id="win_lose", figure={})
+        ])
+    ], className="knucklepuck blow_fold_flex"),
 )
 
 ########################## summary #########################3
@@ -121,7 +126,9 @@ main_content = html.Div([
 
     ], className="flex_daddy above"),
 
-    Card_below_fold
+    html.Div([
+        Card_below_fold
+    ])
 
 ])
 ########################## exec summary #########################3
